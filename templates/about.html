@@ -1,0 +1,153 @@
+{% extends 'main.html' %}
+
+{% block title %}About{% endblock title %}
+
+{% load static %}
+
+{% block head %}
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    color: white;
+  }
+
+  h1 {
+    color: white;
+    font-size: 30px;
+    margin: 30px;
+    text-align: center;
+  }
+
+  h2 {
+    color: white;
+    font-size: 24px;
+    margin: 20px 0;
+    text-align: center;
+  }
+
+  p {
+    margin: 5px 0;
+  }
+
+  .section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+  }
+
+  .section ul {
+    margin-left: 20px;
+  }
+
+  .contact-info {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 18px;
+  }
+</style>
+{% endblock head %}
+
+{% block body %}
+<body style="background-image:url('{% static '/about.jpg' %}'); background-repeat: no-repeat; background-size: cover;">
+  <div class="section">
+    <h1>BALASUBRAHMANYESWARA RAO MADDALA</h1>
+    <hr>
+    <div class="contact-info">
+      <p>Email: mbs.manyam25@gmail.com</p>
+      <p>Phone: +91-7995715517</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>CAREER OBJECTIVE</h2>
+    <p>Work for an organization that provides me the opportunity to improve my skills and knowledge so that I can grow along with the organizational objectives.</p>
+  </div>
+
+  <div class="section">
+    <h2>EDUCATION</h2>
+    <p>DVR & Dr. HS MIC COLLEGE OF TECHNOLOGY, Kanchikacherla</p>
+    <p>Bachelor of Technology: Computer Science and Engineering, Percentage: 91% (2020 - Current)</p>
+    <p>AADITYA JUNIOR COLLEGE, Karimnagar</p>
+    <p>Intermediate: Board of Intermediate Education, Andhra Pradesh, Percentage: 95.2% (2018 - 2020)</p>
+    <p>VISHWASHANTHI HIGH SCHOOL, Karimnagar</p>
+    <p>SSC: Board of Secondary Education, Andhra Pradesh, Aggregate: 9.5 CGPA (Passed in 2018)</p>
+  </div>
+
+  <div class="section">
+    <h2>WORK EXPERIENCE</h2>
+    <p>SALESFORCE INC – Salesforce Developer Virtual Internship (Jul 2022 – Sep 2022)</p>
+    <ul>
+      <li>Gained exposure to the Salesforce platform and learned the basics of data management, workflows, and reports.</li>
+    </ul>
+    <p>JPMorgan Chase & Co – Software Engineering Virtual Experience (Feb 13th, 2021)</p>
+    <ul>
+      <li>During my experience, I gained knowledge and insight into the daily tasks and responsibilities of a software engineer working at JP Morgan, one of the world's leading financial institutions.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>PROJECT EXPERIENCES</h2>
+    <p>Predicting flower species using the Iris dataset using machine learning algorithms</p>
+    <p>The goal of this project is to build a model that can predict the species of an Iris flower given its measurements.</p>
+    <p>The diagnosis of heart patients using the standard heart disease dataset. By using Bayesian network concept.</p>
+    <p>The goal of this project is to build a model that can predict whether the patient has heart disease or not from the given dataset.</p>
+  </div>
+
+  <div class="section">
+    <h2>TECHNICAL SKILLS</h2>
+    <p>Programming Languages: C, Python, Java</p>
+    <p>Web Development: HTML, CSS</p>
+    <p>Database Management: SQL</p>
+    <p>Salesforce: Basics of data management, workflows, and reports</p>
+    <p>Tools: Microsoft Office, Eclipse, VS Code Editor, and Jupyter Notebook</p>
+  </div>
+
+  <div class="section">
+    <h2>WORKSHOPS</h2>
+    <p>4-day workshop + 36 hours HACKATHON on MOBILE APPLICATION DEVELOPMENT by using React Native.</p>
+  </div>
+
+  <div class="section">
+    <h2>CERTIFICATIONS</h2>
+    <ul>
+      <li>Databases for Developers: Foundations, Oracle</li>
+      <li>Microsoft Certified: Azure Data Scientist Associate</li>
+      <li>Microsoft Certified: Azure AI Engineer Associate</li>
+      <li>Microsoft Certified: Azure Fundamentals</li>
+      <li>Microsoft Certified: Azure Data Fundamentals</li>
+      <li>Associate in IT Foundation Skills (Java), Infosys</li>
+      <li>Associate in IT Foundation Skills (Python), Infosys</li>
+      <li>Machine Learning with Python, IBM</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>STRENGTHS</h2>
+    <ul>
+      <li>Self-confident, adaptive, and optimistic</li>
+      <li>Strong analytical and problem-solving skills</li>
+      <li>Good verbal and written communication skills</li>
+      <li>Initiator, efficient team player, and leader</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>HOBBIES</h2>
+    <ul>
+      <li>Solving Quantitative Aptitude and Reasoning problems</li>
+      <li>Penning Quotes</li>
+      <li>Wildlife Photography</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>DECLARATION</h2>
+    <p>I hereby declare that the particulars of facts and information stated above are true, correct, and complete to the best of my belief and knowledge.</p>
+    <p>Station: Vijayawada</p>
+    <p>Date: 25th Apr 2023</p>
+    <p>BALASUBRAHMANYESWARA RAO MADDALA</p>
+  </div>
+</body>
+{% endblock body %}
